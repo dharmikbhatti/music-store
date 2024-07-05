@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'sm': { 'min': '320px', 'max': '480px' },
+                    // => @media (min-width: 640px and max-width: 767px) { ... }
+
+                    'md': { 'min': '481px', 'max': '1024px' },
+                    // => @media (min-width: 768px and max-width: 1023px) { ... }
+
+                    'lg': { 'min': '1025px' },
+                },
+            }
+        }
+    </script>
 </head>
 
 <body class="h-full w-full">
@@ -32,7 +47,7 @@
         </section>
         <!-- middle banner of page 1 & 2-->
         <div
-            class="container text-center text-white absolute left-[10%] top-[85%] z-50 bg-[url(/cdn/mobile.png)] bg-fit bg-no-repeat bg-center bg-red-800 w-[80%] p-[2vw]">
+            class="text-center text-white absolute left-[10%] top-[85%] z-50 bg-[url(/cdn/mobile.png)] bg-fit bg-no-repeat bg-center bg-red-800 w-[80%] p-[2vw]">
             <h1 class="text-[2.3vw] font-bold uppercase">Free guitar lessons!</h1>
             <p class="text-[1.3vw] font-medium mt-[0.7vw]">Purchase any guitar over $499.99 and receive <br>a one-hour
                 guitar lesson free.</p>
@@ -136,7 +151,7 @@
         <section class="text-center w-full h-auto">
             <h1 class="text-red-700 font-bold text-[4vw]">___</h1>
             <h1 class="text-[3vw] font-bold">Gear Heads</h1>
-            <div class="container text-center">
+            <div class="text-center">
                 <div class="grid grid-cols-2 py-[1vw] px-[5vw] text-center">
                     <div class="mx-[1vw] text-start bg-[#252525] text-[#C4C4C4] font-bold rounded-xl">
                         <img src="/cdn/page4-img1.png" alt="" width="100%" height="auto">
@@ -199,7 +214,9 @@
                     </div>
                 </div>
             </div>
-            <p class="text-sm text-[#] bg-[#252525] px-[6vw] py-[0.5vw]">&copy;2021 Music Store X <a href="https://www.instagram.com/heyy.dharuu?igsh=NTc4MTIwNjQ2YQ==" class="hover:text-yellow-600">@heyy.dharuuu</a></p>
+            <p class="text-sm text-[#] bg-[#252525] px-[6vw] py-[0.5vw]">&copy;2021 Music Store X <a
+                    href="https://www.instagram.com/heyy.dharuu?igsh=NTc4MTIwNjQ2YQ=="
+                    class="hover:text-yellow-600">@heyy.dharuuu</a></p>
         </footer>
     </main>
 </body>
