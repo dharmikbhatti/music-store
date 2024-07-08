@@ -48,7 +48,8 @@
 <body class="h-full w-full">
     <main class="h-full w-full relative">
         <!-- page-1 -->
-        <section class="w-full h-full relative z-[99] bg-[url('/cdn/background.png')] bg-center bg-cover bg-no-repeat sm:hidden md:hidden">
+        <section
+            class="w-full h-full relative z-[99] bg-[url('/cdn/background.png')] bg-center bg-cover bg-no-repeat sm:hidden md:hidden">
             <nav class="h-[6vw] w-full px-[5vw] py-[3vw]">
                 <div
                     class="backdrop-blur-[30px] shadow-[0px_0px_30px_rgba(227,228,237,0.37)] border-[1.5px] border-[rgba(255,255,255,0.18)] flex items-center justify-between text-white px-[3vw] py-[2vw] rounded-xl">
@@ -71,20 +72,25 @@
             </h1>
         </section>
         <!-- page-1-mobile -->
-        <section class="w-full h-auto relative z-[99] bg-[url('/cdn/mob-bg.png')] bg-no-repeat bg-center bg-cover text-center md:hidden lg:hidden">
+        <section
+            class="w-full h-auto relative z-[99] bg-[url('/cdn/mob-bg.png')] bg-no-repeat bg-center bg-cover text-center md:hidden lg:hidden">
             <nav class="flex justify-between items-center text-white px-[7vw] py-[16vw]">
                 <img src="/cdn/mob-logo.png" alt="" height="auto" width="50%">
                 <i class="ri-menu-line text-2xl"></i>
             </nav>
-            <h1 class="text-4xl text-white font-bold pb-[60vw] pt-[18vw]">Fullfilling <br>dreams with <br>strings attached</h1>
-            <div class="absolute z-[100] bg-[url('/cdn/mob-part.png')] bg-center bg-cover bg-mo-repeat h-auto w-[90%] text-center text-white top-[84%] left-[5%] rounded-xl md:hidden lg:hidden">
+            <h1 class="text-4xl text-white font-bold pb-[60vw] pt-[18vw]">Fullfilling <br>dreams with <br>strings
+                attached</h1>
+            <div
+                class="absolute z-[100] bg-[url('/cdn/mob-part.png')] bg-center bg-cover bg-mo-repeat h-auto w-[90%] text-center text-white top-[84%] left-[5%] rounded-xl md:hidden lg:hidden">
                 <h1 class="text-2xl font-bold pt-[4vw] ">FREE GUITAR <br> LESSONS!</h1>
-                <p class="text-xs font-semibold pt-[2vw]">Purchase any guitar over $499.99 and receive <br>a one-hour guitar lesson free.</p>
-                <button class="uppercase bg-orange-500 px-[4vw] py-[1.8vw] my-[4vw] text-[3vw] font-semibold rounded-3xl">learn
+                <p class="text-xs font-semibold pt-[2vw]">Purchase any guitar over $499.99 and receive <br>a one-hour
+                    guitar lesson free.</p>
+                <button
+                    class="uppercase bg-orange-500 px-[4vw] py-[1.8vw] my-[4vw] text-[3vw] font-semibold rounded-3xl">learn
                     more</button>
-                </div>
+            </div>
         </section>
-        
+
         <!-- middle banner of page 1 & 2-->
         <div
             class="text-center text-white absolute left-[10%] top-[85%] z-[100] bg-[url('/cdn/Mobile.png')] bg-fit  bg-no-repeat bg-center w-[80%] p-[2vw] sm:hidden md:hidden">
@@ -94,7 +100,7 @@
             <button class="uppercase bg-orange-500 px-[0.8vw] py-[0.2vw] mt-[1vw] text-[0.8vw] rounded-xl">learn
                 more</button>
         </div>
-                
+
         <!-- page-2 -->
         <section class="text-center w-full h-auto sm:hidden md:hidden">
             <h1 class="text-red-700 font-bold pt-[8vw] text-[4vw]">___</h1>
@@ -144,15 +150,46 @@
         </section>
 
         <!-- page-2-mobile -->
-        <section class="w-full md:hidden lg:hidden flex items-center flex-col">
-            <div class="w-[20vw] h-[6px] bg-red-700 mt-[40vw]"></div>
-            <h1 class="text-black font-bold text-[7vw]">New Products</h1>
-            <div class="grid">
-                <div class="">
-                    <img src="/c" alt="">
+        <section class="w-full h-auto py-[10vw] md:hidden lg:hidden flex items-center flex-col">
+            <div class="w-[24vw] h-[4px] bg-red-700 mt-[40vw]"></div>
+            <h1 class="text-black font-bold text-[7vw] pt-[3vw]">New Products</h1>
+            <div class="grid gap-[8vw]">
+                <div class="rounded-xl shadow-lg pb-[4vw]">
+                    <img src="/cdn/mob-page2-img1.png" alt="">
+                    <div class="flex justify-between font-bold text-xl px-[5vw] pt-[4vw]">
+                        <h1>Brand Name</h1>
+                        <h1>$2,995</h1>
+                    </div>
+                    <p class="font-semibold text-gray-600 px-[5vw] pt-[2vw]">Product description here</p>
+                    <div class="flex items-center gap-[1.4vw] border px-[2vw] mt-[4vw] mx-[5vw] w-fit rounded-xl">
+                        <h1 class="font-bold">0</h1>
+                        <p class="font-light text-sm">colors available</p>
+                    </div>
                 </div>
-                <div class=""></div>
-                <div class=""></div>
+                <div class="rounded-xl shadow-lg pb-[4vw]">
+                    <img src="/cdn/mob-page2-img2.png" alt="">
+                    <div class="flex justify-between font-bold text-xl px-[5vw] pt-[4vw]">
+                        <h1>Brand Name</h1>
+                        <h1>$2,995</h1>
+                    </div>
+                    <p class="font-semibold text-gray-600 px-[5vw] pt-[2vw]">Product description here</p>
+                    <div class="flex items-center gap-[1.4vw] border px-[2vw] mt-[4vw] mx-[5vw] w-fit rounded-xl">
+                        <h1 class="font-bold">0</h1>
+                        <p class="font-light text-sm">colors available</p>
+                    </div>
+                </div>
+                <div class="rounded-xl shadow-lg pb-[4vw]">
+                    <img src="/cdn/mob-page2-img3.png" alt="">
+                    <div class="flex justify-between font-bold text-xl px-[5vw] pt-[4vw]">
+                        <h1>Brand Name</h1>
+                        <h1>$2,995</h1>
+                    </div>
+                    <p class="font-semibold text-gray-600 px-[5vw] pt-[2vw]">Product description here</p>
+                    <div class="flex items-center gap-[1.4vw] border px-[2vw] mt-[4vw] mx-[5vw] w-fit rounded-xl">
+                        <h1 class="font-bold">0</h1>
+                        <p class="font-light text-sm">colors available</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -202,6 +239,63 @@
                 </div>
             </div>
         </section>
+
+        <!-- page-3-mobile -->
+        <section class="w-full h-auto md:hidden lg:hidden bg-[#ECECEC] flex items-center flex-col py-[10vw]">
+            <div class="w-[24vw] h-[4px] bg-red-700 mt-[6vw]"></div>
+            <h1 class="text-black font-bold text-[7vw] pt-[3vw]">Popular Finds</h1>
+            <div class="grid gap-[8vw] py-[7vw]">
+                <div class="rounded-xl shadow-lg pb-[4vw] bg-white">
+                    <img src="/cdn/mob-page3-img1.png" alt="">
+                    <div class="flex justify-between font-bold text-xl px-[5vw] pt-[4vw]">
+                        <h1>Brand Name</h1>
+                        <h1>$2,995</h1>
+                    </div>
+                    <p class="font-semibold text-gray-600 px-[5vw] pt-[2vw]">Product description here</p>
+                    <div class="flex items-center gap-[1.4vw] border px-[2vw] mt-[4vw] mx-[5vw] w-fit rounded-xl">
+                        <h1 class="font-bold">0</h1>
+                        <p class="font-light text-sm">colors available</p>
+                    </div>
+                </div>
+                <div class="rounded-xl shadow-lg pb-[4vw] bg-white">
+                    <img src="/cdn/mob-page3-img2.png" alt="">
+                    <div class="flex justify-between font-bold text-xl px-[5vw] pt-[4vw]">
+                        <h1>Brand Name</h1>
+                        <h1>$2,995</h1>
+                    </div>
+                    <p class="font-semibold text-gray-600 px-[5vw] pt-[2vw]">Product description here</p>
+                    <div class="flex items-center gap-[1.4vw] border px-[2vw] mt-[4vw] mx-[5vw] w-fit rounded-xl">
+                        <h1 class="font-bold">0</h1>
+                        <p class="font-light text-sm">colors available</p>
+                    </div>
+                </div>
+                <div class="rounded-xl shadow-lg pb-[4vw] bg-white">
+                    <img src="/cdn/mob-page3-img3.png" alt="">
+                    <div class="flex justify-between font-bold text-xl px-[5vw] pt-[4vw]">
+                        <h1>Brand Name</h1>
+                        <h1>$2,995</h1>
+                    </div>
+                    <p class="font-semibold text-gray-600 px-[5vw] pt-[2vw]">Product description here</p>
+                    <div class="flex items-center gap-[1.4vw] border px-[2vw] mt-[4vw] mx-[5vw] w-fit rounded-xl">
+                        <h1 class="font-bold">0</h1>
+                        <p class="font-light text-sm">colors available</p>
+                    </div>
+                </div>
+                <div class="rounded-xl shadow-lg pb-[4vw] bg-white">
+                    <img src="/cdn/mob-page3-img4.png" alt="">
+                    <div class="flex justify-between font-bold text-xl px-[5vw] pt-[4vw]">
+                        <h1>Brand Name</h1>
+                        <h1>$2,995</h1>
+                    </div>
+                    <p class="font-semibold text-gray-600 px-[5vw] pt-[2vw]">Product description here</p>
+                    <div class="flex items-center gap-[1.4vw] border px-[2vw] mt-[4vw] mx-[5vw] w-fit rounded-xl">
+                        <h1 class="font-bold">0</h1>
+                        <p class="font-light text-sm">colors available</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- page-4 -->
         <section class="text-center w-full h-auto sm:hidden md:hidden">
             <h1 class="text-red-700 font-bold text-[4vw]">___</h1>
@@ -238,6 +332,35 @@
                 </div>
             </div>
         </section>
+
+        <!-- page-4-mobile-->
+        <section class="w-full h-auto md:hidden lg:hidden flex items-center flex-col py-[10vw]">
+            <div class="w-[24vw] h-[4px] bg-red-700 mt-[6vw]"></div>
+            <h1 class="text-black font-bold text-[7vw] pt-[3vw]">New Products</h1>
+            <div class="grid gap-[10vw] py-[8vw]">
+                <div class="bg-[#EAEAEA] rounded-xl shadow-md">
+                    <img src="/cdn/mob-page4-img1.png" alt="">
+                    <h1 class="font-extrabold text-[6vw] pt-[5vw] pl-[6vw]">Article Title</h1>
+                    <p class="font-semibold text-[#767676] pt-[1vw] pb-[8vw] pl-[6vw]">Article Subhead</p>
+                </div>
+                <div class="bg-[#252525] rounded-xl shadow-md">
+                    <img src="/cdn/mob-page4-img2.png" alt="">
+                    <h1 class="font-extrabold text-[6vw] text-white pt-[5vw] pl-[6vw]">Article Title</h1>
+                    <p class="font-semibold text-[#C4C4C4] pt-[1vw] pb-[8vw] pl-[6vw]">Article Subhead</p>
+                </div>
+                <div class="bg-[#EAEAEA] rounded-xl shadow-md">
+                    <img src="/cdn/mob-page4-img3.png" alt="">
+                    <h1 class="font-extrabold text-[6vw] pt-[5vw] pl-[6vw]">Article Title</h1>
+                    <p class="font-semibold text-[#767676] pt-[1vw] pb-[8vw] pl-[6vw]">Article Subhead</p>
+                </div>
+                <div class="bg-[#252525] rounded-xl shadow-md">
+                    <img src="/cdn/mob-page4-img4.png" alt="">
+                    <h1 class="font-extrabold text-[6vw] text-white pt-[5vw] pl-[6vw]">Article Title</h1>
+                    <p class="font-semibold text-[#C4C4C4] pt-[1vw] pb-[8vw] pl-[6vw]">Article Subhead</p>
+                </div>
+            </div>
+        </section>
+
         <!-- footer -->
         <footer class="w-full h-auto bg-[#505050] text-white mt-[8vw] sm:hidden md:hidden">
             <div class="flex justify-between items-center px-[6vw]">
@@ -272,6 +395,25 @@
             <p class="text-sm text-[#] bg-[#252525] px-[6vw] py-[0.5vw]">&copy;2021 Music Store X <a
                     href="https://www.instagram.com/heyy.dharuu?igsh=NTc4MTIwNjQ2YQ=="
                     class="hover:text-yellow-600">@heyy.dharuuu</a></p>
+        </footer>
+
+        <!-- footer-mobile-->
+        <footer
+            class="w-full h-auto bg-[#505050] flex flex-col items-center gap-[2.5vw] text-white text-center md:hidden lg:hidden">
+            <div class="w-[20vw] h-[4px] bg-white mt-[8vw]"></div>
+            <h1 class="font-bold">My Account</h1>
+            <h1>Overview</h1>
+            <h1>Order History</h1>
+            <h1>Whishlist</h1>
+            <h1>Account Information</h1>
+            <div class="flex gap-[3vw] items-center my-[3vw]">
+                <img src="/cdn/yt.png" alt="">
+                <img src="/cdn/twit.png" alt="">
+                <a href="https://www.instagram.com/heyy.dharuu?igsh=NTc4MTIwNjQ2YQ==" class="hover:shadow-indigo-500/50"><img src="/cdn/insta.png"
+                        alt=""></a>
+                <img src="/cdn/fb.png" alt="">
+            </div>
+            <p class="text-sm bg-[#252525] py-[2.2vw] font-light inline-block w-full">&copy;2021 Music Store X <span class="text-yellow-600">Dharuu</span></p>
         </footer>
     </main>
 </body>
